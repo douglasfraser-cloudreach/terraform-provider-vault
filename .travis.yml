@@ -16,11 +16,14 @@ script:
 - make test
 - make vendor-status
 - make vet
+- make errcheck
 
 matrix:
   fast_finish: true
   allow_failures:
   - go: tip
+
+go_import_path: github.com/terraform-providers/terraform-provider-vault
 
 before_deploy:
   - make packages
