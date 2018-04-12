@@ -91,6 +91,8 @@ variables in order to keep credential information out of the configuration.
   the given token must have the update capability on the auth/token/create
   path in Vault in order to create child tokens.
 
+* `use_child_token` - (Optional) TODO
+
 * `ca_cert_file` - (Optional) Path to a file on local disk that will be
   used to validate the certificate presented by the Vault server.
   May be set via the `VAULT_CACERT` environment variable.
