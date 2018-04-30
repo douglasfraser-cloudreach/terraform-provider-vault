@@ -35,5 +35,3 @@ deploy:
     - build/terraform-provider-vault_${TRAVIS_TAG}_darwin_amd64.tar.gz
     - build/terraform-provider-vault_${TRAVIS_TAG}_linux_amd64.tar.gz
   skip_cleanup: true
-  on:
-    all_branches: true
